@@ -26,4 +26,10 @@ public class ApplicationController {
     {
         return "Sostware Developer";
     }
+
+    @GetMapping("/reward")
+    public String reWard()
+    {
+        return "Its Reward Time";
+    }
 }
