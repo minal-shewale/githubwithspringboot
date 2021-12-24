@@ -20,4 +20,10 @@ public class ApplicationController {
     {
         return "She Is From Nashik";
     }
+
+    @GetMapping("/profile")
+    public String profile()
+    {
+        return "Sostware Developer";
+    }
 }
